@@ -1,0 +1,21 @@
+Package:	iwrlars
+Version:	0.9-5
+Date:		2007-01-11
+Title:		Least Angle Regression, Lasso, positive Lasso and Forward Stagewise
+Author:		Trevor Hastie <hastie@stanford.edu>, 
+		Brad Efron <brad@stat.stanford.edu>, 
+		Marc Kirchner <marc.kirchner@iwr.uni-heidelberg.de>, 
+		Bernhard Renard <bernhard.renard@iwr.uni-heidelberg.de>
+Maintainer:	Marc Kirchner <marc.kirchner@iwr.uni-heidelberg.de>
+Depends:	R
+Description:	Efficient procedures for fitting an entire lasso
+		sequence with the cost of a single least squares
+		fit. Least angle regression and infinitessimal forward
+		stagewise regression are related to the lasso, as
+		described in the paper below.
+		This is a modified version of the original lars package
+		by Hastie and Efron, providing a LARS modification for 
+		non-negative lasso.
+License:	GPL version 2 or newer
+URL:		http://www-stat.stanford.edu/~hastie/Papers/#LARS
+Packaged: Sat Dec  8 00:21:35 2007; brenard

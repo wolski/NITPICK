@@ -1,0 +1,11 @@
+Package: nitpick
+Depends: amsmercury, iwrlars
+Type: Package
+Title: NITPICK implementation for peak picking in MS spectra
+Version: 2.0
+Date: 2007-08-21
+Author: Bernhard Renard, Marc Kirchner
+Maintainer: Marc Kirchner <marc.kirchner@iwr.uni-heidelberg.de>
+Description: STRAP implementation for peak picking in MS spectra
+License: LGPL v2.0 or any later version
+Packaged: Thu Nov 27 17:59:33 2008; brenard

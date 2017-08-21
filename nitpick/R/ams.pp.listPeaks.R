@@ -1,0 +1,13 @@
+ ams.pp.listPeaks<-function(beta,iCollection)
+ {
+  lengthSolution<-sum(beta>0)
+  active<-which(beta>0)
+  position<-vector(length=lengthSolution)
+  charge<-vector(length=lengthSolution)
+  sulfInd<-vector(length=lengthSolution)
+  value<-beta[beta>0]
+  charge<-iCollection[active,2]
+  sulfInd<-iCollection[active,3]
+  position<-iCollection[active,1]-iCollection[active,5]+iCollection[active,4]
+  return(cbind(as.vector(position),as.vector(charge),as.vector(value),as.vector(sulfInd)))
+ }
