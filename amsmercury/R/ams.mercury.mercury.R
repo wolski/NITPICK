@@ -16,10 +16,18 @@
 #' @author  Marc Kirchner
 #' @useDynLib Mercury
 #' @export
-#' @examples 
-#' 	# CH4
-#' x <- ams.mercury.mercury(c(4,4,0,0,0), 1, 0);
+#' @examples
+#' 
+#' # CH4
+#' x <- ams.mercury.mercury(c(4,1,0,0,0), 1, 0);
 #' plot(x[,1], x[,2], type="h")
+#' x <- ams.averagine(1000)
+#' 
+#' x <- ams.mercury.mercury(unlist(x$model), 1, 0);
+#' x <- ams.averagine(3000)
+#' x <- ams.mercury.mercury(unlist(x$model), 1, 0);
+#' plot(x[,1], x[,2], type="h")
+#' 
 ams.mercury.mercury <- function(composition, charge, limit)
 {
 	# currently. we expect H-C-N-O-S
