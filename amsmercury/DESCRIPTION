@@ -1,10 +1,11 @@
-Title: Mercury
-Maintainer: Marc Kirchner <marc.kirchner@iwr.uni-heidelberg.de>
-Priority: optional
-Version: 1.3.0
+Package: Mercury
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
 Author: Marc Kirchner
-SaveImage: Yes
+Maintainer: Witold Wolski <wewolski@gmail.com>
+Description: Efficient calculation of accurate masses and abundances of isotopic peaks
 License: LGPL
-Package: amsmercury
-Description:  Efficient calculation of accurate masses and abundances of isotopic peaks
-Packaged: Fri Apr  4 11:19:12 2008; mkirchner
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

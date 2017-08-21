@@ -1,1 +1,1 @@
-PKG_CXXFLAGS=-Wall -O3 -pedantic
+#PKG_CXXFLAGS=-Wall -O3 -pedantic

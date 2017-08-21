@@ -4,6 +4,8 @@
 #' This calculates the number of H, C, N, O and S atoms in a peptide of specified mass, according to the averagine model of (Senko et al., 1995).
 #' @param avgmass the mass for which the element distribution is desired
 #' @references Senko MW, Beu SC, McLafferty FW, Determination of Monoisotopic Masses and Ion Populations for Large Biomolecules from Resolved Isotopic Distributions; J. Am. Soc. Mass Spec. 1995, 6, 229-233.
+#' @author Marc Kirchner
+#' @export
 #' @return
 #'   \item{model}{
 #'  list of the number of atoms for each element, e.g.
@@ -17,8 +19,11 @@
 #'  the specified average mass
 #'
 #' }
-#' 
-"ams.averagine" <-  function(avgmass) 
+#' @examples 
+#' ams.averagine(100)
+#' ams.averagine(1000)
+#' ams.averagine(2000)
+ams.averagine <-  function(avgmass) 
 {
 	# Senko et al., 1995
 	model.freq <- list(H=7.7583, C=4.9384, N=1.3577, O=1.4773, S=0.0417);
