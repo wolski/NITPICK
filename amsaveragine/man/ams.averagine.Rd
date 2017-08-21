@@ -30,9 +30,7 @@ ams.averagine(avgmass)
   }
 }
 \references{
-	Senko MW, Beu SC, McLafferty FW, Determination of Monoisotopic Masses
-	and Ion Populations for Large Biomolecules from Resolved Isotopic
-	Distributions; J. Am. Soc. Mass Spec. 1995, 6, 229-233.
+	
 }
 \author{Marc Kirchner \email{marc.kirchner@iwr.uni-heidelberg.de}}
 \keyword{multivariate}
